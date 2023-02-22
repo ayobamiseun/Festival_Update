@@ -5,7 +5,7 @@ export default function index({data}) {
     <div>
     {data.map((event) =>
    
-  <Link href={"/[cat]/id"} >
+  <Link href={`/events/${event.id}`} >
   <h1>{event.title}</h1>
   <img src={event.image} />
   </Link>
